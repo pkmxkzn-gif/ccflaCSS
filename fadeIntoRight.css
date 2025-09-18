@@ -1,6 +1,6 @@
 .MuiList-root>div>div>div {
   /* アニメーション名の指定：@keyframesと名前をそろえる */
-  animation-name: fadeLeftToRight;
+  animation-name: fadeBottomToTop;
   /* 再生時間：短いほどフェードインが早くなる */
   animation-duration: 20s;
   /* アニメーション終了後の動き
@@ -16,27 +16,24 @@
     animation-direction:normal;
 }
 
-@keyframes fadeLeftToRight {
+@keyframes fadeBottomToTop {
   0% {
-    /* 透明度：0⇒透明、1⇒不透明 */
     opacity: 0;
-    /* 横の動き */
-    transform: translateX(150px);
+    transform: translateY(100px); /* 下から */
   }
 
   15% {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0); /* 元の位置へ */
   }
 
   75% {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
   }
 
   100% {
     opacity: 0;
-    transform: translateX(0);
+    transform: translateY(0);
   }
 }
-
