@@ -13,7 +13,7 @@
     /* 透明度：0⇒透明、1⇒不透明 */
     opacity: 0;
     /* 横の動き */
-    transform: translateX(-150px);
+    transform: translateX(150px);
   }
 
   15% {
@@ -32,4 +32,5 @@
   }
 
 }
+
 
