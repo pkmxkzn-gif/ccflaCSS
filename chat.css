@@ -216,8 +216,6 @@ p.MuiTypography-root {
 .MuiListItemText-primary,
 .MuiTypography-caption {
   /** ユーザ名を設定した色にしたい場合はここ（color）を削除する */
-  text-shadow: var(--font-shadow-user-name) !important;
-  font-size: var(--font-size-user-name) !important;
 }
 /* ダイスを振った時間 */
 span.MuiTypography-root.MuiTypography-caption {
