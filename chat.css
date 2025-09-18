@@ -192,7 +192,6 @@ p.MuiTypography-root {
 
 /** (1D100) > 40 などその他の文字部分 */
 .css-ucj12 {
-  color: var(--font-color-detail) !important;
   text-shadow: var(--font-shadow-detail) !important;
   font-size: var(--font-size-detail) !important;
 }
