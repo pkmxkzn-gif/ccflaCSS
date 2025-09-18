@@ -1,11 +1,19 @@
-:root {
-  --fadeout-sec: 20s;
-}
-
-.MuiListItem-gutters {
-  animation:
-    fadeIn 2s ease 0s,
-    fadeOut 2s ease calc(var(--fadeout-sec) + 2s) forwards;
+.MuiList-root>div>div>div {
+  /* アニメーション名の指定：@keyframesと名前をそろえる */
+  animation-name: fadeLeftToRight;
+  /* 再生時間：短いほどフェードインが早くなる */
+  animation-duration: 20s;
+  /* アニメーション終了後の動き
+  　：forwards⇒最後の状態を保持、backwards⇒最初に戻る */
+  animation-fill-mode:forwards;
+  /* 繰り返し回数 */
+  animation-iteration-count:1;
+  /* 滑らかに動くためのおまじない */
+  animation-timing-function:ease;
+  /* 表示されてからアニメーション開始するまでの時間 */
+  animation-delay: 0s;
+  /* 気にしないでください */
+    animation-direction:normal;
 }
 
 @keyframes fadeLeftToRight {
