@@ -1,33 +1,28 @@
-.MuiList-root>div>div>div {
-  animation-name: fadeBottomToTop;
-  animation-duration: 20s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: 1;
-  animation-timing-function: ease;
-  animation-delay: 0s;
-  animation-direction: normal;
+.MuiList-root > div > div > div {
+  animation-name: fadeBottomToTop !important;
+  animation-duration: 20s !important;
+  animation-fill-mode: forwards !important;
+  animation-iteration-count: 1 !important;
+  animation-timing-function: ease !important;
+  animation-delay: 0s !important;
+  animation-direction: normal !important;
 }
-
 
 @keyframes fadeBottomToTop {
   0% {
     opacity: 0;
-    transform: translateY(100px); /* 下から */
+    transform: translateY(100px);
   }
-
   15% {
     opacity: 1;
-    transform: translateY(0); /* 元の位置へ */
+    transform: translateY(0);
   }
-
   75% {
     opacity: 1;
     transform: translateY(0);
   }
-
   100% {
     opacity: 0;
     transform: translateY(0);
   }
 }
-
