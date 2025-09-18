@@ -1,20 +1,13 @@
 .MuiList-root>div>div>div {
-  /* アニメーション名の指定：@keyframesと名前をそろえる */
   animation-name: fadeBottomToTop;
-  /* 再生時間：短いほどフェードインが早くなる */
   animation-duration: 20s;
-  /* アニメーション終了後の動き
-  　：forwards⇒最後の状態を保持、backwards⇒最初に戻る */
-  animation-fill-mode:forwards;
-  /* 繰り返し回数 */
-  animation-iteration-count:1;
-  /* 滑らかに動くためのおまじない */
-  animation-timing-function:ease;
-  /* 表示されてからアニメーション開始するまでの時間 */
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
   animation-delay: 0s;
-  /* 気にしないでください */
-    animation-direction:normal;
+  animation-direction: normal;
 }
+
 
 @keyframes fadeBottomToTop {
   0% {
@@ -37,3 +30,4 @@
     transform: translateY(0);
   }
 }
+
