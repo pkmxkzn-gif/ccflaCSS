@@ -1,6 +1,6 @@
-.MuiList-root > div > div > div {
+.MuiList-root > div > div > div { 
   animation-name: fadeBottomToTop !important;
-  animation-duration: 20s !important;
+  animation-duration: 20s !important;  /* 全体は20秒 */
   animation-fill-mode: forwards !important;
   animation-iteration-count: 1 !important;
   animation-timing-function: ease !important;
@@ -13,15 +13,15 @@
     opacity: 0;
     transform: translateY(100px);
   }
-  15% {
+  5% { /* フェードイン完了を5%のところに */
     opacity: 1;
     transform: translateY(0);
   }
-  75% {
+  95% { /* ずっと表示を維持 */
     opacity: 1;
     transform: translateY(0);
   }
-  100% {
+  100% { /* フェードアウトは最後の5% */
     opacity: 0;
     transform: translateY(0);
   }
