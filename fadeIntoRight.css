@@ -13,7 +13,7 @@
     opacity: 0;
     transform: translateY(100px);
   }
-  5% { /* フェードイン完了を5%のところに */
+  10% { /* フェードイン完了を5%のところに */
     opacity: 1;
     transform: translateY(0);
   }
@@ -26,4 +26,5 @@
     transform: translateY(0);
   }
 }
+
 
