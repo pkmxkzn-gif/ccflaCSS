@@ -224,3 +224,22 @@ span.MuiTypography-root.MuiTypography-caption {
   text-shadow: var(--font-shadow-dice-time) !important;
   font-size: var(--font-size-dice-time) !important;
 }
+
+
+/* チャット文字色の制御 */
+.MuiTypography-root {
+  color: rgba(0, 0, 0, 1) !important;
+}
+
+.MuiTypography-root[color="success"] {
+  color: rgb(30, 80, 162) !important;
+}
+
+.MuiTypography-root[color="fail"] {
+  color: rgb(232, 56, 61) !important;
+}
+
+.MuiListItemText-root span:first-child {
+  color: inherit !important;
+}
+
