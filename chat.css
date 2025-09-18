@@ -186,7 +186,6 @@ p.MuiTypography-root {
   -webkit-box-orient: vertical !important;
   /* ダイス結果の上限行数を指定(超えると…表示になる) */
   -webkit-line-clamp: var(--line-clamp) !important;
-  color: var(--font-color-result) !important;
   text-shadow: var(--font-shadow-result) !important;
   font-size: var(--font-size-result) !important;
 }
@@ -216,14 +215,12 @@ p.MuiTypography-root {
 .MuiListItemText-primary,
 .MuiTypography-caption {
   /** ユーザ名を設定した色にしたい場合はここ（color）を削除する */
-  color: var(--font-color-user-name) !important;
   text-shadow: var(--font-shadow-user-name) !important;
   font-size: var(--font-size-user-name) !important;
 }
 /* ダイスを振った時間 */
 span.MuiTypography-root.MuiTypography-caption {
   display: var(--disp-dice-time) !important;
-  color: var(--font-color-dice-time) !important;
   text-shadow: var(--font-shadow-dice-time) !important;
   font-size: var(--font-size-dice-time) !important;
 }
