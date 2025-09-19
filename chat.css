@@ -4,7 +4,7 @@
 
 :root {
   /** 表示行数の上限 */
-  --line-clamp: 3;
+  --line-clamp: unset;
   /** ダイス結果の上下揃えの設定 */
   --is-top: auto; /* 上揃えの場合⇒0、下揃えの場合⇒auto */
   --is-bottom: 0; /* 上揃えの場合⇒auto、下揃えの場合⇒0 */
