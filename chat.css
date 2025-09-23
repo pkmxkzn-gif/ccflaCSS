@@ -205,16 +205,17 @@ p.MuiTypography-root {
   font-size: var(--font-size-fail) !important;
 }
 
-/* ユーザ名、ダイスを振った時間 */
-.MuiListItemText-primary,
-.MuiTypography-caption {
-  /** ユーザ名を設定した色にしたい場合はここ（color）を削除する */
-  text-shadow: var(--font-shadow-user-name) !important;
+/* ユーザー名だけ */
+.MuiListItemText-primary {
   font-size: var(--font-size-user-name) !important;
+  text-shadow: var(--font-shadow-user-name) !important;
+  color: var(--font-color-user-name) !important;
 }
+
 /* ダイスを振った時間 */
-span.MuiTypography-root.MuiTypography-caption {
-  display: var(--disp-dice-time) !important;
-  text-shadow: var(--font-shadow-dice-time) !important;
+.MuiListItemText-secondary span.MuiTypography-root.MuiTypography-caption {
   font-size: var(--font-size-dice-time) !important;
+  text-shadow: var(--font-shadow-dice-time) !important;
+  color: var(--font-color-dice-time) !important;
+  display: var(--disp-dice-time) !important;
 }
