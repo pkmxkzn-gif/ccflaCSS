@@ -44,7 +44,7 @@
   --font-color-user-name: rgba(255, 255, 255, 1);
   --font-shadow-user-name: 2px 2px 3px black; /** 読み方）X軸 Y軸 影の幅 色 */
   /** ダイスを振った時間を表示するか */
-  --disp-dice-time: inline; /** none⇒表示しない、transparent⇒表示する */
+  --disp-dice-time: none; /** none⇒表示しない、transparent⇒表示する */
   --font-size-dice-time: 1rem;
   --font-color-dice-time: rgba(255, 255, 255, 0.6);
   --font-shadow-dice-time: 2px 2px 3px black; /** 読み方）X軸 Y軸 影の幅 色 */
