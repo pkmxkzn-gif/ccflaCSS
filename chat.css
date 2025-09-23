@@ -12,11 +12,6 @@
   --width: 500px; /** 結果の横幅 */
   --background-color: rgba(0, 0, 0, 0.6); /** 背景色 */
   --background-padding: 8px 18px 8px 18px; /** 外枠と文字の隙間 */
-  --border-color: rgba(255, 255, 255, 1); /** 枠線の色 */
-  --border-image: url(https://xxx/yyy.png); /** 枠線に画像を使用 */
-  --border-slice: 0px; /** 枠線画像の太さ */
-  --border-width: 0px; /** 枠線の幅 */
-  --border-radius: 10px; /** 角の丸み */
   --border-shadow: 5px 5px 10px black; /** 読み方）X軸 Y軸 影の幅 色 */
   --result-space: 10px; /** ダイス結果同士の隙間 */
   /** アイコン画像の設定 */
