@@ -22,7 +22,7 @@
   --icon-margin-top: 0px; /** アイコン上のスペース */
   --icon-margin-bottom: 0px; /** アイコン下のスペース */
   --icon-margin-left: -20px; /** アイコン左のスペース */
-  --icon-margin-right: 15px; /** アイコン右のスペース */
+  --icon-margin-right: 0px; /** アイコン右のスペース */
   /** ダイス結果の文字部分（デフォルト） */
   --font-size-result: 1.5rem;
   --font-color-result: rgba(255, 255, 255, 1);
